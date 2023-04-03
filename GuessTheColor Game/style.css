@@ -1,0 +1,66 @@
+body {
+	background-color: #E1E1E1;
+	font-family: 'Trebuchet MS';
+	font-size: 40%;
+	margin: 0;
+}
+#container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+.square {
+	width: 30%;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1%;
+} 
+h1 {
+	color: #232323;
+	font-size: 30px;
+	text-align: center;
+	margin: 0;
+	padding: 10px 0;
+}
+#color-display {
+	display: block;
+	font-size: 30px;
+}
+#stripe {
+	background: white;
+	height: 30px;
+	text-align: center;
+	color: black;
+}
+#message {
+	text-transform: uppercase;
+	color: green;
+	font-size: 22px;
+	display: inline-block;
+	width: 20%;
+}
+button {
+	outline: none;
+	color: #232323;
+	font-family: 'Trebuchet MS';
+	font-size: 20px;
+	background-color: white;
+	height: 100%;
+}
+button:hover {
+	background-color: #232323;
+	color: white;
+}
+.selected {
+	background-color: #232323;
+	color: white;
+}
+.square {
+	border-radius: 20%;
+}
+* {
+	border: 0px;
+}
+
+
+
